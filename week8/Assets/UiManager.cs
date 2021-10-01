@@ -5,14 +5,14 @@ using UnityEngine.UI;
 
 public class UiManager : MonoBehaviour
 {
-    public GameObject ScoreKeeper;
+    public ScoreKeeper scoreKeeper;
     public float currentScore;
     public Text scores;
     
     // Update is called once per frame
     void Update()
     {
-        currentScore = ScoreKeeper.GetComponent<ScoreKeeper>().CurrentScore();
+        currentScore = scoreKeeper.CurrentScore();
         ScoreUpdated(currentScore);
     }
 

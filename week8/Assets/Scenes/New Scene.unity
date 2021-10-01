@@ -123,6 +123,32 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &197093863 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2363165489307127401, guid: 010fd320a5c18d343b4d1e1aa9be30df, type: 3}
+  m_PrefabInstance: {fileID: 953889152}
+  m_PrefabAsset: {fileID: 0}
+--- !u!50 &197093868
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 197093863}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &648191821
 GameObject:
   m_ObjectHideFlags: 0
@@ -355,6 +381,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -328057145906088614, guid: b9a6a39f1c638cb46b10803c69c15a9f, type: 3}
+      propertyPath: scoreKeeper
+      value: 
+      objectReference: {fileID: 1407015496}
     - target: {fileID: 1418029528509821218, guid: b9a6a39f1c638cb46b10803c69c15a9f, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -500,7 +530,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: scorekeeper
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -7019193730755144910, guid: e403db52a14348d4a9dfff8fdb1cb8e0, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: e403db52a14348d4a9dfff8fdb1cb8e0, type: 3}
 --- !u!1001 &7773920393752361693
 PrefabInstance:
@@ -509,6 +540,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1935735851211945724, guid: d8f85903fa19a1d4bacf343184220fbc, type: 3}
+      propertyPath: scoreKeeper
+      value: 
+      objectReference: {fileID: 1407015496}
+    - target: {fileID: 5207351222093174744, guid: d8f85903fa19a1d4bacf343184220fbc, type: 3}
+      propertyPath: scoreKeeper
+      value: 
+      objectReference: {fileID: 1407015496}
     - target: {fileID: 7773920392059200564, guid: d8f85903fa19a1d4bacf343184220fbc, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -557,5 +596,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: coins
       objectReference: {fileID: 0}
+    - target: {fileID: 8197674159350427715, guid: d8f85903fa19a1d4bacf343184220fbc, type: 3}
+      propertyPath: scoreKeeper
+      value: 
+      objectReference: {fileID: 1407015496}
+    - target: {fileID: 8630426680300119697, guid: d8f85903fa19a1d4bacf343184220fbc, type: 3}
+      propertyPath: scoreKeeper
+      value: 
+      objectReference: {fileID: 1407015496}
+    - target: {fileID: 9062394651516708348, guid: d8f85903fa19a1d4bacf343184220fbc, type: 3}
+      propertyPath: scoreKeeper
+      value: 
+      objectReference: {fileID: 1407015496}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d8f85903fa19a1d4bacf343184220fbc, type: 3}
