@@ -10,9 +10,9 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.2d.sprite": {
-      "version": "file:D:/Unity/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.2d.sprite",
+      "version": "1.0.0",
       "depth": 0,
-      "source": "local",
+      "source": "builtin",
       "dependencies": {}
     },
     "com.unity.burst": {
